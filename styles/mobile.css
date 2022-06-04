@@ -48,12 +48,11 @@
     height: 50%;
 }
 
+
 #productos .card-body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
-    
 }
 #productos .card{
     height: 70vh;
