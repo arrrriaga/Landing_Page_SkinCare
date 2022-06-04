@@ -47,7 +47,10 @@
 #carousel .overlay .row {
     height: 50%;
 }
-
+#button-container{
+    display: flex;
+    justify-content: center;
+}
 
 #productos .card-body {
     display: flex;
