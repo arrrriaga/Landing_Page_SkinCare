@@ -50,7 +50,6 @@
 
 #expert-container {
     background-color: #ecd1dd;
-    padding: 5%;
     
 }
 #expert-container div {
@@ -63,7 +62,6 @@
 }
 #expert-container img {
     max-width: 100%;
-    height: 40vh;
     border-radius:5px;
 }
 
@@ -117,12 +115,33 @@
     .card-title {
         font-size: 24px;
     }
-    
+    #expert-container {
+        padding: 5%;
+    }
+    #expert-container img {
+        max-height: 400px;
+    }
 } 
+@media (min-width: 576px){
+    #expert-container {
+        padding: 5%;
+    }
+    #expert-container img {
+        max-height: 450px;
+    }
+}
+@media (min-width: 768px){
+    
+}
 @media (min-width:991px) {
+    #expert-container {
+        padding: 0%;
+    }
     #productos p {
         font-size: 18px;
     }
-   
+}
 
+@media (min-width: 1200){
+    
 }
