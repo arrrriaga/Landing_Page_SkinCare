@@ -47,6 +47,27 @@
 #carousel .overlay .row {
     height: 50%;
 }
+
+#expert-container {
+    background-color: #ecd1dd;
+    padding: 5%;
+    
+}
+#expert-container div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#registrados {
+    flex-direction: column;
+}
+#expert-container img {
+    max-width: 100%;
+    height: 40vh;
+    border-radius:5px;
+}
+
+
 #button-container{
     display: flex;
     justify-content: center;
@@ -87,4 +108,21 @@
 
 #SocialMedia {
     margin: 10px;
+}
+
+@media (min-width: 100px) {
+    p {
+        font-size: 24px;
+    }
+    .card-title {
+        font-size: 24px;
+    }
+    
+} 
+@media (min-width:991px) {
+    #productos p {
+        font-size: 18px;
+    }
+   
+
 }
