@@ -28,8 +28,9 @@
 
 }
 
-#carousel {
+#main #carousel {
     position: relative;
+
 }
 
 #carousel .overlay {
@@ -45,6 +46,24 @@
 #carousel .overlay .container,
 #carousel .overlay .row {
     height: 50%;
+}
+
+#productos .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    
+}
+#productos .card{
+    height: 70vh;
+
+}
+
+#productos img {
+    max-height: 40vh;
+    min-height: 40vh;
+    object-fit:cover; 
 }
 
 #footer {
