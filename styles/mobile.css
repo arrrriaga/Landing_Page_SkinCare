@@ -4,6 +4,7 @@
     padding: 0;
 }
 
+
 .text-harmonie {
     color: #daa411 !important;
 }
@@ -69,6 +70,11 @@
 #button-container{
     display: flex;
     justify-content: center;
+}
+
+#contenedor-cartas {
+    display: flex;
+    align-items: stretch;
 }
 
 #productos .card-body {
